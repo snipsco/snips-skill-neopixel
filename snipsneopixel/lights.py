@@ -1,6 +1,6 @@
 from __future__ import unicode_literals
 from enum import IntEnum
-from serial import serial
+import serial
 
 
 class Animation(IntEnum):
