@@ -9,7 +9,7 @@ import atexit
 class SnipsNeopixel:
     """NeoPixel skill for Snips."""
 
-    def __init__(self, arduino_port='/dev/ttyACM0', debug=True, locale=None):
+    def __init__(self, arduino_port='/dev/ttyACM0', debug=False, locale=None):
         try:
             print(arduino_port)
             self.animator = Animator(arduino_port, debug)
