@@ -1,0 +1,19 @@
+package_name: snipsneopixel
+class_name: SnipsNeopixel
+description: NeoPixel skill for Snips
+params:
+  arduino_port: <ARDUINO_PORT>
+dialogue_events:
+  - event: session_started
+    action: |
+      {%
+      print("->>>> Session started <<<<-")
+      snips.skill.listening()
+      %}
+  - event: session_ended
+    action: |
+      {%
+      print("->>>> Session ended <<<<-")
+      snips.skill.stand_by()
+      %}
+

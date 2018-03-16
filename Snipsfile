@@ -1,0 +1,26 @@
+assistant_url: https://s3.amazonaws.com/snips/labs/blog_assets/spkr_assistant_music_A864FE81.zip
+skills:
+  - package_name: snipsmopidy
+    pip: https://github.com/snipsco/snips-skill-mopidy.git
+    params:
+      mopidy_host: 127.0.0.1
+      spotify_refresh_token: ***REMOVED***
+      spotify_client_id: ***REMOVED***
+      spotify_client_secret: ***REMOVED***
+  - package_name: snipsneopixel
+    pip: /home/pi/snips-skill-neopixel
+    params:
+      arduino_port: /dev/tty.usbmodem1411
+    dialogue_events:
+      - event: session_started
+        action: |
+          {%
+          print("->>>> Session started <<<<-")
+          snips.skill.listening()
+          %}
+      - event: session_ended
+        action: |
+          {%
+          print("->>>> Session ended <<<<-")
+          snips.skill.standby()
+          %}
