@@ -11,7 +11,6 @@ class SnipsNeopixel:
 
     def __init__(self, arduino_port='/dev/ttyACM0', debug=False, locale=None):
         try:
-            print(arduino_port)
             self.animator = Animator(arduino_port, debug)
             self.animator.open()
             self.animator.run(Animation.waking_up)
