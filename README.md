@@ -21,7 +21,7 @@ Note: if you have Arduino running, you would need to restart it for the librarie
 ~~~
 - Open the **Snips_lights** library example called home:
 
-[snips-lights]: https://cdn-images-1.medium.com/max/1600/1*IdSEqw2EKfpqtosr0R8DCQ.png
+![snips-lights](https://cdn-images-1.medium.com/max/1600/1*IdSEqw2EKfpqtosr0R8DCQ.png)
 
 - Plug your Arduino board 
 - Pick your Arduino board under **Tools > Board** and upload the example via the Arduino IDE.
@@ -32,11 +32,11 @@ an Arduino Micro:
 - First you need to solder the Neopixel ring and the Arduino Micro. Start to solder red and black wire to the 5V and Gnd pins 
 of the Neopixel Ring then solder a color wire to Data pin.
 
-[soldering-step-1]: https://cdn-images-1.medium.com/max/1600/1*jpGKItzakYWYZ93PUD2dvA.png
+![soldering-step-1](https://cdn-images-1.medium.com/max/1600/1*jpGKItzakYWYZ93PUD2dvA.png)
 
 - Then solder the red and black wire to the 5V and GND of the Arduino Micro, and the Data on pin 6.
 
-[soldering-step-2]: https://cdn-images-1.medium.com/max/1600/1*JEN1Lfyit8FXiz-HMNzxnw.png
+![soldering-step-2](https://cdn-images-1.medium.com/max/1600/1*JEN1Lfyit8FXiz-HMNzxnw.png)
 
 ## Snips Skills Manager
 
