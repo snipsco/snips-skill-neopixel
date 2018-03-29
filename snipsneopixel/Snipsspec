@@ -1,8 +1,7 @@
 package_name: snipsneopixel
 class_name: SnipsNeopixel
 description: NeoPixel skill for Snips
-params:
-  arduino_port: <ARDUINO_PORT>
+parameters: ["arduino_port"]
 dialogue_events:
   - event: session_started
     action: |
