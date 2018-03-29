@@ -2,7 +2,7 @@ from setuptools import setup
 
 setup(
     name='snipsneopixel',
-    version='1.0.1',
+    version='0.1.0',
     description='NeoPixel skill for Snips',
     author='',
     url='https://github.com/snipsco/snips-skill-neopixel',
