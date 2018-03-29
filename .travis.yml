@@ -1,0 +1,14 @@
+language: python
+python:
+- '2.7'
+cache: pip
+install:
+- python setup.py install
+deploy:
+  provider: pypi
+  user: snips
+  password:
+    secure: HlN9ZlTYs2DKowLROGkGJXOc4fF7zkpvHl7/PnzT5/lYNqlXL/9GRMCIVlOCFEsNNtgKF0FZu0WoLvqOP7eA9eUzrqprAd3aGG6ZWaoBiesWHzz0Zr4fmfvxO2ow4jCTBEJcrBAWAinethCTG7eUFYW4D975q+hgQmLCYtE3lqlQ7+yH4E8COE5F4AptZyva260nPa51dYClpfy5V5A/RPKUbMD2bL4sMimrV7MfHQ7x/Bm5iWJa+6FoqTiKG/l7WKxH4YrG7vD4EEoqRxlotLJRWfgOv6/dO0yOansUP9b7MZwkW22iyUJlpAAuqqwzXizqwiCBDYS+lJ4CVUvUv2jUu3sz0bigrC9hFe2CEJVu2VUIB+PIOxIYV+dPSR4+voFiHQCRc8d3M/nk9isOlWLP0BF1VW75q7wIgz08tF6RXNytTGpjwIyyfi6H0FLyx5dIcazxDGM/rK3OHvQ0Kt6vbWKkWs8hue8lOldKKOsEF3IgYekw9WdvOh8WwwdiBDVzVZL1Na9KzA+OKEc9d2lvAmweibQqlWpqKQCQhVZJCUkESU+G2gwJchr9cQftlZSGTgCWI7QBcPkrD0QRMOB4VbePQx4jr/MFCU/Hjil3rnIqDtoYsGLFSbFTAzoqYqGCjixyy/GjZJm6M5vvntMhUVtV8alPrfTOnNio/zg=
+  on:
+    tags: true
+    branch: master
