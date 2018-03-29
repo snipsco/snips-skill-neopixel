@@ -8,7 +8,7 @@ new features and patches.
 ## Getting Started
 
 - Make sure you have a GitHub account.
-- Open a [new issue](https://github.com/snipsco/snips-skill-owm/issues), assuming one does not already exist.
+- Open a [new issue](https://github.com/snipsco/snips-skill-neopixel/issues), assuming one does not already exist.
 - Clearly describe the issue including steps to reproduce when it is a bug.
 
 ## Making Changes
