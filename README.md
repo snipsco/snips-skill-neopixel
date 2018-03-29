@@ -1,6 +1,8 @@
 
 # Snips Skill NeoPixel
 
+[![Latest Version](https://img.shields.io/pypi/v/snipsneopixel.svg)](https://pypi.python.org/pypi/snipsneopixel/)
+[![Build Status](https://travis-ci.org/snipsco/snips-skill-neopixel.svg)](https://travis-ci.org/snipsco/snips-skill-neopixel)
 [![MIT License](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/snipsco/snips-skill-hue/master/LICENSE.txt)
 
 ## Requirements
