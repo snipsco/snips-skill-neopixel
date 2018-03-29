@@ -3,7 +3,7 @@
 
 [![Latest Version](https://img.shields.io/pypi/v/snipsneopixel.svg)](https://pypi.python.org/pypi/snipsneopixel/)
 [![Build Status](https://travis-ci.org/snipsco/snips-skill-neopixel.svg)](https://travis-ci.org/snipsco/snips-skill-neopixel)
-[![MIT License](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/snipsco/snips-skill-hue/master/LICENSE.txt)
+[![MIT License](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/snipsco/snips-skill-neopixel/master/LICENSE.txt)
 
 ## Requirements
 - Arduino Board
@@ -40,7 +40,7 @@ of the Neopixel Ring then solder a color wire to Data pin.
 
 ![soldering-step-2](https://cdn-images-1.medium.com/max/1600/1*JEN1Lfyit8FXiz-HMNzxnw.png)
 
-## Snips Skills Manager
+## Snips Manager
 
 It is recommended that you use this skill with the [Snips Manager](https://github.com/snipsco/snipsmanager). Simply add the following section to your [Snipsfile](https://github.com/snipsco/snipsmanager/wiki/The-Snipsfile):
 
