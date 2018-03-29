@@ -40,7 +40,7 @@ of the Neopixel Ring then solder a color wire to Data pin.
 
 ## Snips Skills Manager
 
-It is recommended that you use this skill with the [Snips Skills Manager](https://github.com/snipsco/snipsskills). Simply add the following section to your [Snipsfile](https://github.com/snipsco/snipsskills/wiki/The-Snipsfile):
+It is recommended that you use this skill with the [Snips Manager](https://github.com/snipsco/snipsmanager). Simply add the following section to your [Snipsfile](https://github.com/snipsco/snipsmanager/wiki/The-Snipsfile):
 
 ~~~yaml
 skills:
@@ -82,9 +82,9 @@ neopixel.loading()
 
 ## Contributing
 
-Please see the [Contribution Guidelines](https://github.com/snipsco/snips-skill-mopidy/blob/master/CONTRIBUTING.md).
+Please see the [Contribution Guidelines](https://github.com/snipsco/snips-skill-neopixel/blob/master/CONTRIBUTING.md).
 
 ## Copyright
 
-This skill is provided by [Snips](https://www.snips.ai) as Open Source software. See [LICENSE.txt](https://github.com/snipsco/snips-skill-mopidy/blob/master/LICENSE.txt) for more
+This skill is provided by [Snips](https://www.snips.ai) as Open Source software. See [LICENSE.txt](https://github.com/snipsco/snips-skill-neopixel/blob/master/LICENSE.txt) for more
 information.

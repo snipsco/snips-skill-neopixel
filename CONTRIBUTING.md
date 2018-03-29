@@ -1,4 +1,4 @@
-#How to Contribute
+# How to Contribute
 
 Contributions are welcome! Not familiar with the codebase yet? No problem!
 There are many ways to contribute to open source projects: reporting bugs,
